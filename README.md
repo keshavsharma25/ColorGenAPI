@@ -10,7 +10,9 @@ ColorGenAPI is a REST API for generating color palettes. It takes an image as a 
 
 The API is used for the [ColorGenUI](https://github.com/keshavsharma25/ColorGenUI) which is deployed on Netlify (Link - [ColorGen](https://colorgen-ai.netlify.app)).
 
-The docker image can be created using the following command after cloning the repository:
+The [route.py](route/route.py) contains the endpoints for the API and the [palette_gen.py](model\palette_gen.py) contains the KMeans model which helps in creating the hex colors.
+
+The docker instance of the same can be created using the following command after cloning the repository:
 
 ```bash
 docker-compose up -d
