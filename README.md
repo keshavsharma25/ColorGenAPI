@@ -1,10 +1,6 @@
 # ColorGenAPI
 
----
-
 ## Overview
-
----
 
 | **Try it out -** [**https://colorgenapi.herokuapp.com/docs**](https://colorgenapi.herokuapp.com/docs) |
 
