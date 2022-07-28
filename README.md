@@ -15,5 +15,6 @@ The [route.py](route/route.py) contains the endpoints for the API and the [palet
 The docker instance of the same can be created using the following command after cloning the repository:
 
 ```bash
+docker-compose build
 docker-compose up -d
 ```
